@@ -62,3 +62,10 @@ HAVING SUM(o.total_cost) > 700;
 
 --*Query 5 (CASE WHEN):* Select all orders and add a column order_label that labels total_cost < 500 
 
+SELECT *,
+       CASE
+           WHEN total_cost < 500 THEN 'cheap'
+           WHEN total_cost < 800 THEN 'medium'
+           ELSE 'expensive'
+       END AS order_label
+FROM orders;
