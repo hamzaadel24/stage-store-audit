@@ -1,12 +1,8 @@
-# Mini Store Data Pipeline
+# Stage Store Audit
 
-## Project Overview
-A practice project combining Python and SQL.
-
-## Files
+## Project Files
 - Python scripts for data processing.
-- SQL scripts for database queries.
-- requirements.txt for Python dependencies.
+- SQL script for database queries.
 
 ## Setup
 Create and activate a virtual environment:
@@ -18,11 +14,9 @@ Install dependencies:
 python -m pip install -r requirements.txt
 
 ## Run
-Run your Python script:
+Run the Python script:
 
-python your_python_file.py
+python YOUR_PYTHON_FILE.py
 
-## SQL Screenshots
+## Screenshots
 See the screenshots folder for pgAdmin query outputs.
-
-![pgAdmin Query Output](screenshots/pgadmin_query.png)
